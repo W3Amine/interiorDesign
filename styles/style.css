@@ -1,0 +1,578 @@
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    margin: 0px;
+}
+
+/* ::placeholder {
+    
+} */
+
+
+.row {
+    display: flex !important;
+
+    width: 100%;
+}
+
+.rowraw {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.text-center {
+    text-align: center ;
+}
+.primarycolor {
+
+    color : var(--primarycolor) !important ;
+
+}
+.bggraycolor {
+    background-color: var(--graycolor) !important;
+}
+
+.bgdarkcolor {
+    background-color: var(--darkcolor) !important;
+}
+
+
+
+.bgprimarycolor {
+    background-color: var(--primarycolor) !important;
+}
+
+.darkcolor {
+    color : var(--darkcolor) !important ;
+}
+
+.lh0 {
+    line-height: 0px !important;
+}
+
+
+.lh1 {
+    line-height: 1px !important;
+}
+.pt-2 {
+padding-top: 4px ;
+}
+
+
+.mt-2 {
+    margin-top: 4px ;
+    }
+    
+
+
+.f90px{
+    font-size: 90px !important;
+}
+
+.f28px{
+    font-size: 28px !important;
+}
+
+
+.f24px {
+
+    font-size: 24px;
+  }
+
+  .f20px {
+
+    font-size: 20px;
+  }
+
+
+  .f26px {
+
+    font-size: 26px;
+  }
+  .f18px {
+
+    font-size: 20px;
+  }
+
+
+.f40px {
+    font-size: 40px;
+  }
+
+.fw400 {
+    font-weight: 400 !important;
+}
+
+.fw600 {
+    font-weight: 600 !important;
+}
+
+
+.fw200 {
+    font-weight: lighter !important;
+}
+.white {
+    color : white !important ;
+}
+
+.text-color {
+    color : var(--textcolor) !important ;
+}
+
+.float-left {
+float: left !important;
+}
+
+
+.float-right {
+    float: right !important;
+    }
+    
+h1 , h2 , h3 , h4 ,h5 , h6 {
+
+
+    font-family: var(--primaryfont) , sans-serif ;
+    font-weight: 400 ;
+
+
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 28px;
+font-weight: 400;
+}
+p {
+    font-family: var(--primaryfont) , sans-serif ;
+    font-size: 16px;
+    color : var(--textcolor) ;
+
+}
+
+
+
+
+.img-fluid {
+max-width: 100%;
+height: auto;
+
+}
+
+.width30 {
+    width : 30% !important ;
+    height: auto;
+}
+
+
+.width50 {
+    width : 48% !important ;
+    height: auto;
+
+}
+
+
+.mt36 {
+    margin-top: 36px;
+
+}
+
+
+body {
+  
+}
+
+
+
+/* nav code start here  */
+
+
+
+nav {
+
+  height: 100vh;
+  width : 23% ;
+  background-color:  var(--primarycolor);
+  align-self: flex-start;
+  position: -webkit-sticky !important; /* Safari */
+  position: sticky !important;
+  top: 0;
+
+}
+
+
+.navbarcontent {
+    padding: 84px 14px;
+
+}
+
+
+nav p {
+
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 8%;
+  
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding-left: 0px !important;
+    margin-top: 72px;
+}
+
+
+nav ul li  {
+    color: var(--white);
+    text-decoration: none;
+    font-family: var(--primaryfont), sans-serif;
+    font-size: 18px;
+    background-color: var(--primarycolor);
+    padding-left: 8%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    transition: all 0.6;
+
+}
+
+
+nav ul li:hover  {
+
+    background-color: var(--white);
+    transition: all 0.6s;
+
+}
+
+
+nav ul li a {
+    color : var(--white);
+    text-decoration: none;
+    font-family: var(--primaryfont), sans-serif;
+    font-size:  18px ;
+    transition: all 0.6s;
+    font-weight: 600 ;
+
+}
+
+
+
+
+nav ul li:hover a  {
+
+color : var(--black);
+transition: all 0.6s;
+
+}
+
+
+
+
+
+/* nav code end here  */
+
+
+
+
+header {
+
+    margin-top: -100vh !important;
+
+    width:calc(100% - 23% - 4.5%) ;
+
+
+padding-top: 87px;
+padding-left: 30px ;
+
+
+  background-color: var(--white);
+}
+
+
+header h1 {
+
+    color : var(--black);
+    font-size: 64px;
+    font-weight: 500;
+    margin: 0px !important;
+
+  
+    
+}
+
+
+
+section {
+     
+
+    width: calc(100% - 23% - 4.5%);
+    max-width: calc(100% - 23% - 4.5%);
+
+    margin-top: 40px;
+margin-bottom: 40px;
+
+  background-color:  var(--white);
+    /* background-color: rgb(50, 255, 211);
+   
+    padding-top : 40px !important;
+   
+  
+    height: auto;
+    
+    margin-top: 10px ; */
+
+} 
+
+
+section h2 {
+    font-size: 48px !important;
+    margin: 0px !important;
+    margin-top: 10px !important;
+font-weight: 500;
+}
+
+
+
+/* section1 Showcase style start here  */
+
+.section1  {
+    margin-top: 0px;
+
+}
+
+
+
+
+.section1 h2 {
+    font-size: 48px !important;
+    margin: 0px !important;
+    margin-top: 10px !important;
+font-weight: 500;
+}
+
+
+
+.theline {
+
+
+    margin-top: 23px;
+
+  background-color: var(--white);
+  border-radius: 4px;
+  border: 5px solid var(--primarycolor);
+  width: 52px;
+  padding: 0.2px;
+  color: var(--primarycolor)
+
+
+}
+
+.wrap {
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.col-2 {
+    width: 46%;
+  }
+
+.section1 img {
+opacity: 0.8;
+transition: all 0.6s;
+}
+
+.section1 img:hover {
+    opacity: 1;
+    transition: all 0.6s;
+
+    }
+    
+
+
+
+  
+
+
+
+
+/* section1 style end here  */
+
+
+
+
+
+
+/* section2 style start here  */
+
+
+.width95 {
+    width: 95%;
+
+}
+
+
+
+/* section2 style end here  */
+
+
+
+
+
+/* section3 style start here  */
+
+
+
+
+
+.section3 img {
+
+    filter: grayscale(76%);
+
+}
+
+
+
+.cardcontent {
+    padding: 8px;
+}
+
+
+.section3 h3 {
+    margin: 0px ;
+}   
+
+
+
+/* section3  style end here  */
+
+
+
+
+
+
+
+
+/* section4 style start here  */
+
+
+.section4 h3 {
+    padding: 30px ;
+}   
+
+
+
+
+.section4 ul {
+    list-style: none;
+    padding: 0px;
+margin-top: -24px !important;
+
+}
+
+
+.section4 ul li  {
+    color: var(--black);
+    text-decoration: none;
+    font-family: var(--primaryfont), sans-serif;
+
+    background-color: var(--graycolor);
+    padding-left: 8%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-align: center;
+
+}
+
+
+/* section4 style end here  */
+
+
+
+
+/* section5 style start here  */
+
+
+
+
+
+
+/* section5 style end here  */
+
+
+
+
+
+
+
+
+/* footer style start here  */
+
+footer {
+    padding-top: 12px ;
+    padding-bottom: 44px ;
+  
+    
+    width: calc(100% - 23%);
+  margin-top: 40px;
+  
+  background-color: var(--graycolor);
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  /* footer style end here  */
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+/* Start of responsivity code */
+
+
+
+@media only screen and (max-width: 588px ) {
+
+  
+
+  }
+
+
+  @media only screen and (max-width: 866px ) {
+
+    
+
+  }
+
+
+
+  
+
+
+
+
+/* end of responsivity code */
+
+
+
+
+
